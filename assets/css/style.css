@@ -124,9 +124,9 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    header > a:hover{
-        color: #3a3a3a;
-        border-bottom: 1px solid #3a3a3a;
+    #menu > li a:hover{
+        color: #2B558C;
+        border-bottom: 1px solid #2B558C;
     }
 
 }
