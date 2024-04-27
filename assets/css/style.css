@@ -4,14 +4,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* General styles */
+body { 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Genrec project styles */
+    color: black;
+}
 /* Header */
 header {
     background-color: aqua;
 }
 
 /* Main */
-main {
+main { 
     background-color: blanchedalmond;
+    flex: 1 0 auto;
 }
 
 /* footer */
