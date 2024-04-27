@@ -40,7 +40,11 @@ header {
 }
 
 .active {
-    color: #3462BF;
+    color: #c2c2c2;
+}
+.nav-link {
+    color: #D9984A;
+    text-decoration: none;
 }
 /* Navbar styles to dropdown toggle */
 nav {
@@ -109,6 +113,6 @@ footer {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
-        background-color: #D9BD9C;
+        background-color: hsl(32, 10%, 73%);
     }
 }
