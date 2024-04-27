@@ -30,12 +30,13 @@ header {
 }
 #menu {
     font-size: 110%;
-    letter-spacing: 4;
     list-style-type: none;
-    color: #3462BF;
 }
 #menu > li {
     margin-bottom: 1em;
+}
+#menu > a {
+    color: #D9BD9C;
 }
 
 .active {
@@ -102,6 +103,7 @@ footer {
     #logo {
         margin: 0.5rem 0.5rem;
     }
+    
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
