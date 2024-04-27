@@ -61,6 +61,8 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    width: 100%;
+    text-align: right;
 }
 
 #nav-toggle {
@@ -83,6 +85,7 @@ main {
     justify-content: space-evenly;
     padding: 20px;
     list-style-type: none;
+    border-top: .5px #D9984A solid ;
 }
 #footer-icons  i {
     font-size: 150% ;
@@ -121,7 +124,9 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
-        background-color: hsl(32, 10%, 73%);
+    header > a:hover{
+        color: #3a3a3a;
+        border-bottom: 1px solid #3a3a3a;
     }
+
 }
