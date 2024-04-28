@@ -17,9 +17,15 @@ body {
     color: black;
     font-family: 'inter' , sans-serif;
 }
+h1, h2, h3 {
+    font-family: 'inter' , sans-serif;
+    text-transform: uppercase;
+    color: #3462BF;
+    font-weight: 900;
+}
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #2B558C;
     padding: 10px 1rem;
     z-index: 99;
     width: 100%;
@@ -33,14 +39,14 @@ header {
     list-style-type: none;
 }
 #menu > li {
-    margin-bottom: 1em;
+    margin-bottom:.5em;
 }
 #lines-icon {
-    color: #2B558C;
+    color: #f8cf99;
 }
 
 .nav-link {
-    color: #D9984A;
+    color: #f8cf99;
     text-decoration: none;
 }
 .active {
@@ -49,7 +55,7 @@ header {
 /* Navbar styles to dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #2B558C;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -83,8 +89,24 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/young-man-walking-towards-great-sphinx-giza-ibra.jpg") no-repeat center center/cover;
+    position: relative;
+}
+#cover-text {
+    background-color: rgba(40, 80, 140, 0.85);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 180px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    
 }
 
+#cover-text h2 , h3 {
+    color: #f8cf99;
+}
 /* footer */
 #footer-icons {
     text-align: center;
@@ -127,6 +149,16 @@ main {
         margin: 0.5rem 0.5rem;
     }
     
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+        min-height: 150px;
+    }
+    #cover-text h3 {
+        letter-spacing: 4px;
+        padding-top: 5px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
