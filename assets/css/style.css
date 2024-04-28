@@ -72,10 +72,17 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-/* Main */
+
+/* Main Content */
 main { 
-    background-color: blanchedalmond;
     flex: 1 0 auto;
+}
+
+/* Hero section */
+hero {
+    height: 600px;
+    width: 100%;
+    background-color: aquamarine;
 }
 
 /* footer */
