@@ -9,20 +9,30 @@
 }
 
 /* General styles */
-body { 
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Genrec project styles */
     color: black;
-    font-family: 'inter' , sans-serif;
+    font-family: 'inter', sans-serif;
 }
-h1, h2, h3 {
-    font-family: 'inter' , sans-serif;
+
+h1,
+h2,
+h3 {
+    font-family: 'inter', sans-serif;
     text-transform: uppercase;
     color: #3462BF;
     font-weight: 900;
 }
+
+h4 {
+    font-family: 'inter', sans-serif;
+    color: #3462BF;
+    font-weight: 700;
+}
+
 /* Header */
 header {
     background-color: #2B558C;
@@ -34,13 +44,21 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
+#logo-svg{
+    width: 150px;
+    height: 49px;
+}
+
 #menu {
     font-size: 110%;
     list-style-type: none;
 }
-#menu > li {
-    margin-bottom:.5em;
+
+#menu>li {
+    margin-bottom: .5em;
 }
+
 #lines-icon {
     color: #f8cf99;
 }
@@ -49,9 +67,11 @@ header {
     color: #f8cf99;
     text-decoration: none;
 }
+
 .active {
     color: #c2c2c2;
 }
+
 /* Navbar styles to dropdown toggle */
 nav {
     position: absolute;
@@ -80,7 +100,7 @@ nav {
 }
 
 /* Main Content */
-main { 
+main {
     flex: 1 0 auto;
 }
 
@@ -91,6 +111,7 @@ main {
     background: url("../images/young-man-walking-towards-great-sphinx-giza-ibra.jpg") no-repeat center center/cover;
     position: relative;
 }
+
 #cover-text {
     background-color: rgba(40, 80, 140, 0.85);
     font-size: 130%;
@@ -101,12 +122,44 @@ main {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 5px;
-    
+
 }
 
-#cover-text h2 , h3 {
+#cover-text h2,
+h3 {
     color: #f8cf99;
 }
+
+/* Activities section */
+#activities {
+    width: 90%;
+    margin: 20px auto;
+}
+.activities-title {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+#activities h4 {
+    margin-bottom: 5px;
+    font-size: 150%;
+    text-align: left;
+}
+.activities-icon {
+    width: 50px;
+}
+
+#activities p {
+    padding: 0 20;
+    font-family: 'inter' sans-serif;
+    font-weight: 200;
+    text-justify: inter-cluster;
+}
+#activities hr {
+    border-top: #3462BF solid .5px ;
+    margin-bottom: 10px;
+}
+
 /* footer */
 #footer-icons {
     text-align: center;
@@ -114,16 +167,18 @@ main {
     justify-content: space-evenly;
     padding: 20px;
     list-style-type: none;
-    border-top: .5px #D9984A solid ;
+    border-top: .5px #D9984A solid;
 }
-#footer-icons  i {
-    font-size: 150% ;
+
+#footer-icons i {
+    font-size: 150%;
     padding: 5px;
     color: #2B558C;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -137,7 +192,7 @@ main {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -148,13 +203,14 @@ main {
     #logo {
         margin: 0.5rem 0.5rem;
     }
-    
+
     /* Hero */
     #cover-text {
         width: 300px;
         right: 50px;
         min-height: 150px;
     }
+
     #cover-text h3 {
         letter-spacing: 4px;
         padding-top: 5px;
@@ -163,7 +219,7 @@ main {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu > li a:hover{
+    #menu>li a:hover {
         color: #8C441B;
         border-bottom: 1px solid #8C441B;
     }
