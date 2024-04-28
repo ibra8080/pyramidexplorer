@@ -164,7 +164,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-/* Book Now */
+/* Book Now Button */
 #book-now {
     width: 150px;
     height: 50px;
@@ -193,6 +193,21 @@ h3 {
     color: #ffffff;
 }
 
+/* Tours Plan page */
+.plan {
+    width: 270px;
+    height: 430px;
+    background-color: #3462bf1a;
+    position: relative;
+    margin: auto;
+    border: solid #3462BF .5px ;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+}
+.plan-title {
+    width: 270px;
+}
 
 /* footer */
 #footer-icons {
