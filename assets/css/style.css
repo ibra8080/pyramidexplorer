@@ -79,10 +79,10 @@ main {
 }
 
 /* Hero section */
-hero {
+#hero {
     height: 600px;
     width: 100%;
-    background-color: aquamarine;
+    background: url("../images/young-man-walking-towards-great-sphinx-giza-ibra.jpg") no-repeat center center/cover;
 }
 
 /* footer */
