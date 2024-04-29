@@ -333,9 +333,10 @@ h3 {
 }
 
 /* Plans page */
-container {
-    display: flex;
+#container {
+    width: 100%;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
