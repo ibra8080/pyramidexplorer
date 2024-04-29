@@ -40,6 +40,7 @@
     </header>
 
     <!-- Main -->
+    <main>
     <section id="booknow">
         <form id="booknow-form" method="post" action="https://formdump.codeinstitute.net">
             <h2>Book Now</h2>
@@ -48,48 +49,53 @@
             <br>
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="last-name" class="text-input" required>
-            br
-            <label for="email">E-mail</label>
+            <br>
+            <label for="email">Email</label>
             <input type="email" id="email" name="email" class="text-input" required>
             <br>
             <div id="guests">
                 <label for="adult">Adults No.</label>
                 <input type="number" id="adults" name="adults-no" required class="text-input">
-                <label for="children">Adults No.</label>
+                <label for="children">Children No.</label>
                 <input type="number" id="children" name="children-no" class="text-input">
             </div>
-            <p>Which plane you want?</p>
-            <div class="radio" id="plans-selector">
+            
+            <fieldset id="trip-plan">
+                <legend>Please choose the plan</legend>
+
                 <div>
-                    <label for="khufu">Khufu</label>
-                    <input type="radio" id="khufu" name="khufu-plan" value="khufu" required checked>
+                    <input type="radio" id="khufu" name="trip-plan" value="khufu" checked><label
+                        for="khufu">Khufu</label>
                 </div>
                 <div>
-                    <label for="khafre">Khafre</label>
-                    <input type="radio" id="khafre" name="khafre-plan" value="khafre" required >
+                    <input type="radio" id="khafre" name="trip-plan" value="khafre"><label for="khafre">Khafre</label>
                 </div>
                 <div>
-                    <label for="menkaure">Menkaure</label>
-                    <input type="radio" id="menkaure" name="menkaure-plan" value="menkaure" required >
+                    <input type="radio" id="menkaure" name="trip-plan" value="menkaure"><label
+                        for="menkaure">Menkaure</label>
                 </div>
                 <div>
-                    <label for="sphinx">Sphinx</label>
-                    <input type="radio" id="sphinx" name="sphinx-plan" value="sphinx" required >
+                    <input type="radio" id="sphinx" name="trip-plan" value="sphinx"><label for="sphinx">Sphinx</label>
                 </div>
-            </div>
+            </fieldset>
+
             <button type="submit" class="booking">Book Now</button>
         </form>
     </section>
+</main>
 
     <!-- Footer -->
     <footer>
         <ul id="footer-icons">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (open in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+                    aria-label="Visit our Facebook page (open in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (open in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+                    aria-label="Visit our Instagram page (open in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
             <li><a href="https://twitter.com/home" target="_blank" rel="noopener"
-                    aria-label="Visit our twitter (X) page (open in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    aria-label="Visit our twitter (X) page (open in a new tab)"><i
+                        class="fa-brands fa-x-twitter"></i></a></li>
             <li><a href="https://www.linkedin.com/in/ibrahim-abusaif-7aa1981a9/" target="_blank" rel="noopener"
                     aria-label=" This is my linkedin account"><i class="fa-brands fa-linkedin-in"></i></a></li>
             <li><a href="https://github.com/ibra8080" target="_blank" rel="noopener"
