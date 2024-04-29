@@ -196,7 +196,7 @@ h3 {
 /* Tours Plan page */
 .plan {
     width: 270px;
-    height: 430px;
+    height: 480px;
     background-color: #3462bf1a;
     position: relative;
     margin: auto;
@@ -209,11 +209,12 @@ h3 {
 .plan-title {
     width: 100%;
     height: 50px;
-    background-color: #3462BF;
+    background-color: #2B558C;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px 10px 0px 0px;
+    border-bottom: #D9984A solid 1px;
     
 }
 .plan-title h4 {
@@ -224,19 +225,49 @@ h3 {
 }
 .plan-details {
     flex-grow: 1;
+    width: 100%;
+    padding: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #3a3a3a;
+}
+.plan-list{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 270px;
+}
+.plan-list> .light {
+    background-color: #3462bf1a;
+}
+.plan-details li {
+    list-style: none;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+}
+.plan-details div {
+    margin: 5px;
 }
 .plan-price {
     width: 100%;
     height: 50px;
-    background-color: #3462BF;
+    background-color: #2B558C;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0px 0px 10px 10px;
+    border-top: #D9984A solid 1px;
 }
 .plan-price h4 {
     color: #f8cf99;
     letter-spacing: 4px;
+    font-weight: 300;
+    font-size: 120%;
 }
 
 /* footer */
