@@ -194,6 +194,11 @@ h3 {
 }
 
 /* Tours Plan page */
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
 .plan {
     width: 270px;
     height: 480px;
@@ -325,6 +330,12 @@ h3 {
         letter-spacing: 4px;
         padding-top: 5px;
     }
+}
+
+/* Plans page */
+container {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
