@@ -18,6 +18,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Styel link-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
 
 </head>
 
@@ -91,7 +94,41 @@
             </div>
         </section>
 
-        <div >
+        <!-- Gallery section -->
+        <section id="gallery">
+            <figure class="img">
+                <a href="assets/images/young-woman-visiting-pyramids-egypt.jpg" data-fancybox="pyramid"
+                    data-caption="Create unforgettable memories">
+                    <img src="assets/images/young-woman-visiting-pyramids-egypt.jpg" alt="young-woman-visiting-pyramids-egypt">
+                </a>
+                <div>
+                    <p class="gallery-pics-caption">Click on the image and enjoy more</p>
+                </div>
+            </figure>
+            <!-- hidden: additional images for pyramid group -->
+            <div class="display-none">
+                <a href="assets/images/male-abu-simbel-temple-southern-egypt-lake-nasser.jpg" data-fancybox="pyramid"
+                    data-caption="In the vastness of the greatness of the past">
+                    <img src="assets/images/male-abu-simbel-temple-southern-egypt-lake-nasser.jpg" alt="male-abu-simbel-temple-southern-egypt-lake-nasser">
+                </a>
+            </div>
+            <div class="display-none">
+                <a href="assets/images/young-tourist-wearing-blue-turban-standing-near-great-sphinx-giza-cairo-egypt.jpg"
+                    data-fancybox="pyramid" data-caption="Magic... excitement... mystery!!">
+                    <img src="assets/images/young-tourist-wearing-blue-turban-standing-near-great-sphinx-giza-cairo-egypt.jpg"
+                        alt="young-tourist-wearing-blue-turban-standing-near-great-sphinx-giza-cairo-egypt">
+                </a>
+            </div>
+            <div class="display-none">
+                <a href="assets/images/majestic-pyramid-shape-awe-inspiring-ancient-civilization-monument-generated-by-ai.jpg"
+                    data-fancybox="pyramid" data-caption="Want to explore? .. join us">
+                    <img src="assets/images/majestic-pyramid-shape-awe-inspiring-ancient-civilization-monument-generated-by-ai.jpg"
+                        alt="majestic-pyramid-shape-awe-inspiring-ancient-civilization-monument-generated-by-ai">
+                </a>
+            </div>
+        </section>
+
+        <div>
             <a id="book-now" href="book-now.html">Book Now</a>
         </div>
 
@@ -118,6 +155,10 @@
 
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/20eaafa6b5.js" crossorigin="anonymous"></script>
+    <!-- Fancyapps gallery -->
+    <script>
+        Fancybox.bind("[data-fancybox]", {});
+    </script>
 </body>
 
 </html>
