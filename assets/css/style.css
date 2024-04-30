@@ -288,27 +288,35 @@ h3 {
 }
 
 /* Book-Now page */
-#booknow-form {
-    min-height: 480px;
-    width: 250px;
+#booknow-section {
+    position: absolute;
+    top: 90px;
+    left: 7px;
+    width: 95%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+}
+#booknow-form {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
     border: #3462BF solid .5px;
-    align-self: center;
-    margin: 15px auto;
     border-radius: 15px;
+    gap: 3px;
 }
 
 #booknow-form h4 {
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 140%;
 }
 
 .text-input {
     border: #3462BF solid .5px;
-    height: 1.5rem;
+    height: 1.3rem;
     border-radius: 5px;
 }
 
@@ -438,29 +446,25 @@ h3 {
         letter-spacing: 4px;
         padding-top: 5px;
     }
-}
 
-/* Plans page */
-#container {
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-/* Book now page */
-#booknow-section {
-    display: flex;
-    margin: 25px;
-    align-items: center;
-    height: 100%;
-    align-content: stretch;
-}
-#booknow-form {
-    width: 550px;
-    position: relative;
-    align-self: center;
-    margin-top: 25px;
-    flex-grow: 1;
-    padding-top: 20px;
+    /* Plans page */
+    #container {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* Book now page */
+    #booknow-section {
+        display: flex;
+        top: 20%;
+    }
+    #booknow-form {
+        max-width: 450px;
+        align-self: center;
+        padding: 10px;
+        
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
