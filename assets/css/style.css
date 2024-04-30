@@ -317,10 +317,16 @@ h3 {
     color: #3462BF;
     font-weight: 300;
 }
+.guests-input {
 
+    width: 100px;
+    margin-left: 10px;
+}
 #guests {
     display: flex;
+    gap: 10px;
 }
+
 
 #trip-plan {
     padding: 10px;
