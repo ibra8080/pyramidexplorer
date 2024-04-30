@@ -154,9 +154,8 @@ h3 {
 
 #activities p {
     padding-bottom: 40px;
-    font-family: 'inter'sans-serif;
+    font-family: 'inter' sans-serif;
     font-weight: 200;
-    text-justify: inter-cluster;
 }
 
 #activities hr {
