@@ -176,8 +176,10 @@ h3 {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-
-
+    align-items: center;
+    text-decoration: none;
+    color: #3462BF;
+    transition: all .2s ease-in-out;
 }
 
 #book-now a {
@@ -191,9 +193,6 @@ h3 {
 
 #book-now:hover {
     background-color: #3462BF;
-}
-
-#book-now a:hover {
     color: #ffffff;
 }
 
