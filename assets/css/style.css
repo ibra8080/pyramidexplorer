@@ -348,16 +348,16 @@ h3 {
 
 .booking {
     height: 50px;
-    color: #ffffff;
+    color: #3462BF;
     border: #3462BF solid 1px;
     border-radius: 10px;
     margin-top: auto;
+    transition: all 0.2s ease-in-out;
 }
-.booking p {
-    color: #3462BF;
-}
+
 .booking:hover {
-    background-color: #f8cf99;
+    background-color: #3462BF;
+    color: #ffffff;
 }
 
 
