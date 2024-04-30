@@ -424,6 +424,22 @@ h3 {
     flex-direction: row;
     flex-wrap: wrap;
 }
+/* Book now page */
+#booknow-section {
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    height: 100%;
+    align-content: stretch;
+}
+#booknow-form {
+    width: 550px;
+    position: relative;
+    align-self: center;
+    margin-top: 25px;
+    flex-grow: 1;
+    padding-top: 20px;
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
