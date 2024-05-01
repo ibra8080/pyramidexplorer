@@ -59,3 +59,60 @@ I used [color.adobe.com](https://color.adobe.com/search?q=pyramids%20) to genera
 
 - [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
+## Wireframes
+
+### Mobile Wireframes
+
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
+
+Home
+  - ![screenshot](documentation/mobW1.png)
+  - ![screenshot](documentation/mobW3.png)
+
+Plans
+  - ![screenshot](documentation/mobW4.png)
+  - ![screenshot](documentation/mobW5.png)
+
+Booknow
+  - ![screenshot](documentation/mobW6.png)
+
+</details>
+
+### Tablet Wireframes
+
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
+
+Home
+  - ![screenshot](documentation/tabW1.png)
+
+About
+  - ![screenshot](documentation/tabW2.png)
+
+Booknow
+  - ![screenshot](documentation/tabW3.png)
+
+
+</details>
+
+### Desktop Wireframes
+
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
+
+Home
+  - ![screenshot](documentation/deskW1.png)
+  - ![screenshot](documentation/deskW2.png)
+
+Plans
+  - ![screenshot](documentation/deskW3.png)
+
+Booknow
+  - ![screenshot](documentation/deskW4.png)
+
+Gallery
+  - ![screenshot](documentation/wireframes/desktop-gallery.png)
+
+</details>
+
