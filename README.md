@@ -27,3 +27,35 @@ At PyramidExplorer, your journey is not just a trip—it's an unforgettable odys
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://ibra8080.github.io/pyramidexplorer)
 
 ## UX
+
+I drew a quick sketch of the site's layout and pages
+
+![screenshot](documentation/PyramidExplorer-sketch1.png)
+![screenshot](documentation/PyramidExplorer-sketch2.png)
+
+and then used Figma to create a Wireframe, making sure it was responsive
+![screenshot](documentation/figmascreenshoot.png)
+
+### Colour Scheme
+
+I used a color scheme derived from the colors of the clear sky in Cairo with the colors of the desert and the pyramids. 
+
+- `#3a3a3a` used for primary text.
+- `#3462BF` used for primary highlights.
+- `#3a3a3a` used for secondary text.
+- `#D9984A` used for secondary highlights.
+
+I used [color.adobe.com](https://color.adobe.com/search?q=pyramids%20) to generate my colour palette.
+
+![screenshot](documentation/colorScheme.png)
+
+
+### Typography
+
+
+- [Inter-Black-Bold](https://fonts.google.com/specimen/Inter?query=inter) was used for the primary headers and titles.
+
+- [Inter-Light-Regular](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+
