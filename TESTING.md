@@ -32,9 +32,9 @@ The only error that appears in the test is from the code imported from the fancy
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home | tour-plans | BookNow | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/validation/chrome.png) | ![screenshot](documentation/validation/chrome2.png) | ![screenshot](documentation/validation/chrome3.png) | ![screenshot](documentation/validation/chrome4.png) | Works as expected |
+| Browser | Home | tour-plans | BookNow |
+| --- | --- | --- | --- |
+| Chrome | ![screenshot](documentation/validation/chrome.png) | ![screenshot](documentation/validation/chrome2.png) | ![screenshot](documentation/validation/chrome3.png) | ![screenshot](documentation/validation/chrome4.png) |
 | Firefox | ![screenshot](documentation/validation/firefox.png) | ![screenshot](documentation/validation/firefox2.png) | ![screenshot](documentation/validation/firefox3.png) | ![screenshot](documentation/validation/firefox4.png) | Works as expected |
 | Safari | ![screenshot](documentation/validation/safari.png) | ![screenshot](documentation/validation/safari2.png) | ![screenshot](documentation/validation/safari3.png) | ![screenshot](documentation/validation/safari4.png) | Minor CSS differences |
 | Opera | ![screenshot](documentation/validation/opera.png) | ![screenshot](documentation/validation/opera2.png) | ![screenshot](documentation/validation/opera3.png) | ![screenshot](documentation/validation/opera4.png) | Minor differences |
@@ -43,11 +43,11 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Home | Tours plans | BookNow | etc | Notes |
-| --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/validation/mob1.png) | ![screenshot](documentation/validation/mob2.png) | ![screenshot](documentation/validation/mob4.png) | ![screenshot](documentation/validation/mob5.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/validation/tab-1.png) | ![screenshot](documentation/validation/tab-2.png) | ![screenshot](documentation/validation/tab-3.png) | ![screenshot](documentation/validation/tab-4.png) | Works as expected |
-| Desktop | ![screenshot](documentation/validation/chrome.png) | ![screenshot](documentation/validation/chrome2.png) | ![screenshot](documentation/validation/chrome3.png) | ![screenshot](documentation/validation/chrome4.png) | Works as expected |
+| Device | Home | Tours plans | BookNow |
+| --- | --- | --- | --- |
+| Mobile (DevTools) | ![screenshot](documentation/validation/mob1.png) | ![screenshot](documentation/validation/mob2.png) | ![screenshot](documentation/validation/mob4.png) | ![screenshot](documentation/validation/mob5.png) |
+| Tablet (DevTools) | ![screenshot](documentation/validation/tab-1.png) | ![screenshot](documentation/validation/tab-2.png) | ![screenshot](documentation/validation/tab-3.png) | ![screenshot](documentation/validation/tab-4.png) |
+| Desktop | ![screenshot](documentation/validation/chrome.png) | ![screenshot](documentation/validation/chrome2.png) | ![screenshot](documentation/validation/chrome3.png) | ![screenshot](documentation/validation/chrome4.png)  |
 
 ## Lighthouse Audit
 
@@ -56,6 +56,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/testing/home-M.png) | ![screenshot](documentation/testing/home-D.png) | Some minor warnings |
-| Tours | ![screenshot](documentation/testing/tour-M.png) | ![screenshot](documentation/testing/tour-D.png) | Some minor warningس |
+| Tours | ![screenshot](documentation/testing/tour-M.png) | ![screenshot](documentation/testing/tour-D.png) | Some minor warning|
 | Booknow | ![screenshot](documentation/testing/book-M.png) | ![screenshot](documentation/testing/book-D.png) | Slow response time due to large images |
 
