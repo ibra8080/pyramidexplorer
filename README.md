@@ -116,3 +116,58 @@ Gallery
 
 </details>
 
+## Features
+
+### Existing Features
+
+- **A large main interface image-#1**
+
+    - A large main interface image to put the user directly into the atmosphere of the event.
+
+![screenshot](documentation/feature1.png)
+
+- **Icons for all features-#2**
+
+    - Icons for all basic features to make it easier for the user to remember and increase clarity.
+
+![screenshot](documentation/feature2.png)
+
+- **A photo gallery-#3**
+
+    - A photo gallery on the home page to enable the user to browse photos and learn more about trip details.
+
+![screenshot](documentation/feature3.png)
+
+- **The Call to Action button-#4**
+
+    - The Call to Action button is present on every page to make it easier for the user to reach the booking page.
+
+![screenshot](documentation/feature4.png)
+
+- **Displaying plans-#5**
+
+    - Displaying the different plans in a way that makes it easy to compare the features and price of each plan and choose the most appropriate one for the user.
+
+![screenshot](documentation/feature5.png)
+
+- **The booking form-#6**
+
+    - The booking form is simple and easy to use.
+
+![screenshot](documentation/feature6.png)
+
+- **Links to social-media are located on the footer-#7**
+
+    - Links to the project pages on social media are located on the footer of each page to enable the user to quickly access them and increase familiarity with the project. They open on separate pages so that the user does not lose continuity in browsing the site.
+
+![screenshot](documentation/feature7.png)
+
+### Future Features
+
+- Add a blog in which news of the latest trips is published.
+    - It is updated periodically with the possibility of creating separate events in it
+- Add a section for customers reviews to share their experiences and photos.
+    - Can be used by users directly.
+- Adding the ability to design a customized plan for the user.
+- Add a video for each feature of the trip.
+
