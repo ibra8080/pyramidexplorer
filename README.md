@@ -253,17 +253,18 @@ There are no major differences between my local version in Gitpod vs my deployed
  - Photos & sections icons : [Freepik](https://www.freepik.com) , edited by me.
  - Header & footer HTML, CSS code : [Love Running - Essentials Project, Code Institute](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
  - Gallery section, [fancybox](https://fancyapps.com/fancybox/plugins/slideshow/)
+ - Favicon : designed by me 
 
 ### Content
 
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Fontawesom](https://chris.beams.io/posts/git-commit) | footer | "How to Write a Git Commit Message" |
+| [Fontawesom](https://chris.beams.io/posts/git-commit) | footer | "social media icons " |
 | [fancybox](https://fancyapps.com/fancybox/plugins/slideshow/) | gallery  | Slideshow in home page |
 | [W3Schools](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_align-self) | entire site | CSS align-self |
 | [YouTube](https://www.youtube.com/watch?v=phWxA89Dy94) | entire site | tutorial for flexbox |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
+
 
 ### Media
 
