@@ -159,6 +159,19 @@ Booknow
 
 ![screenshot](documentation/feature7.png)
 
+- **Confirmation page-#8**
+
+    - The booking confirmation page appears after booking and automatically returns the user after 10 seconds to the site’s home page.
+
+![screenshot](documentation/feature8.png)
+
+- **404 error page-#9**
+
+    - 404 error page with nice content and the ability to return directly to the site.
+  
+
+![screenshot](documentation/feature9.png)
+
 ### Future Features
 
 - Add a blog in which news of the latest trips is published.
