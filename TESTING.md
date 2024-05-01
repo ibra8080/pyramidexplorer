@@ -30,18 +30,14 @@ The only error that appears in the test is from the code imported from the fancy
 
 ## Browser Compatibility
 
-
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Home | About | Contact | etc | Notes |
+| Browser | Home | tour-plans | BookNow | etc | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browsers/browser-firefox-home.png) | ![screenshot](documentation/browsers/browser-firefox-about.png) | ![screenshot](documentation/browsers/browser-firefox-contact.png) | ![screenshot](documentation/browsers/browser-firefox-etc.png) | Works as expected |
-| Edge | ![screenshot](documentation/browsers/browser-edge-home.png) | ![screenshot](documentation/browsers/browser-edge-about.png) | ![screenshot](documentation/browsers/browser-chrome-edge.png) | ![screenshot](documentation/browsers/browser-edge-etc.png) | Works as expected |
-| Safari | ![screenshot](documentation/browsers/browser-safari-home.png) | ![screenshot](documentation/browsers/browser-safari-about.png) | ![screenshot](documentation/browsers/browser-safari-contact.png) | ![screenshot](documentation/browsers/browser-safari-etc.png) | Minor CSS differences |
-| Brave | ![screenshot](documentation/browsers/browser-brave-home.png) | ![screenshot](documentation/browsers/browser-brave-about.png) | ![screenshot](documentation/browsers/browser-brave-contact.png) | ![screenshot](documentation/browsers/browser-brave-etc.png) | Works as expected |
-| Opera | ![screenshot](documentation/browsers/browser-opera-home.png) | ![screenshot](documentation/browsers/browser-opera-about.png) | ![screenshot](documentation/browsers/browser-opera-contact.png) | ![screenshot](documentation/browsers/browser-opera-etc.png) | Minor differences |
-| repeat for any other tested browsers | x | x | x | x | x |
+| Chrome | ![screenshot](documentation/validation/chrome.png) | ![screenshot](documentation/validation/chrome2.png) | ![screenshot](documentation/validation/chrome3.png) | ![screenshot](documentation/validation/chrome4.png) | Works as expected |
+| Firefox | ![screenshot](documentation/validation/firefox.png) | ![screenshot](documentation/validation/firefox2.png) | ![screenshot](documentation/validation/firefox3.png) | ![screenshot](documentation/validation/firefox4.png) | Works as expected |
+| Safari | ![screenshot](documentation/validation/safari.png) | ![screenshot](documentation/validation/safari2.png) | ![screenshot](documentation/validation/safari3.png) | ![screenshot](documentation/validation/safari4.png) | Minor CSS differences |
+| Opera | ![screenshot](documentation/validation/opera.png) | ![screenshot](documentation/validation/opera2.png) | ![screenshot](documentation/validation/opera3.png) | ![screenshot](documentation/validation/opera4.png) | Minor differences |
 
 ## Responsiveness
 
