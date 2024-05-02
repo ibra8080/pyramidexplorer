@@ -56,6 +56,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/testing/home-M.png) | ![screenshot](documentation/testing/home-D.png) | Some minor warnings |
-| Tours | ![screenshot](documentation/testing/tour-M.png) | ![screenshot](documentation/testing/tour-D.png) | Some minor warning|
-| Booknow | ![screenshot](documentation/testing/book-M.png) | ![screenshot](documentation/testing/book-D.png) | Slow response time due to large images |
+| Tours | ![screenshot](documentation/testing/tour-M.png) | ![screenshot](documentation/testing/tour-D.png) | |
+| Booknow | ![screenshot](documentation/testing/book-M.png) | ![screenshot](documentation/testing/book-D.png) | |
 
